@@ -57,6 +57,9 @@ header {
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -66,9 +69,9 @@ header {
     background-color: lightcoral;
     height: 800px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content:center;
-
+    justify-content: center;
 }
 
 iframe { 
